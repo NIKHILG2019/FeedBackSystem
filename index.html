@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{
+            background-color:#5286F3;
+            font-size:14px;
+            color:#fff;
+        }
+        .simple-login-container{
+            width:300px;
+            max-width:100%;
+            margin:50px auto;
+        }
+        .simple-login-container h2{
+            text-align:center;
+            font-size:20px;
+        }
+
+        .simple-login-container .btn-login{
+            background-color:#FF5964;
+            color:#fff;
+        }
+        a{
+            color:#fff;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="google-signin-client_id" content="1018126920431-75874eoiluogcjd5p4ge02po56mvi7ba.apps.googleusercontent.com">
+    <title>Login Page</title>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+</head>
+<body>
+<div class="simple-login-container">
+    <h2>VES FeedBack</h2>
+    <div class="row">
+        <div class="col-md-12 form-group">
+            <center>
+            <div class="g-signin2" data-onsuccess="onSignIn"></div>
+            </center>
+        </div>
+    </div>
+</div>
+</body>
+</html>
